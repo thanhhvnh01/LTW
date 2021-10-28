@@ -53,7 +53,7 @@
         <div style="overflow: auto;" class="row album-des">
             <h4 class="col-xs-12" style="text-align:justify; margin-top: 20px; margin-bottom: 50px; font-size: 18px">
                 <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">
-                    <span style="font-size: 17px;text-transform: lowercase; font-family: Arial; color: #1d2129; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img style="float: right; margin: 20px;" src="./img/<?php 
+                    <span style="font-size: 17px;text-transform: lowercase; font-family: Lora; color: #1d2129; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img style="float: right; margin: 20px;" src="./img/<?php 
                 if ($row["anh"]<>"") {
                 echo $row["anh"];
                 } else {

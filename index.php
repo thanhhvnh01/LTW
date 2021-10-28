@@ -99,6 +99,7 @@
 						</a>		
 					</div>
 				</div>
+				<br>
 						
                     <form action="./lien_he_thuc_hien.php" enctype="multipart/form-data" method="POST" accept-charset="UTF-8">
                         <input type="hidden" name="__session_id" value="b09774f4-f010-458b-810f-c02063c9bbb1">
@@ -107,6 +108,7 @@
           
             
                         <div class="row contact-form">
+					
                         <div id="lienhe" class="col-sm-12 col-md-6"> 
                             <div class="is-vertical-flex form-group">
                             <p class="lienhe2">HỌ VÀ TÊN</p>

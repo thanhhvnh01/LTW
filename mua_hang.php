@@ -62,7 +62,7 @@
 												?>
 													<tr>
 														<th><?php echo $gh["ten_sp"]; ?>  x <?php echo $gh['so_luong_sp'] ?></th>
-														<td><?php echo $gh['gia_ban'] * $gh['so_luong_sp'] ?> $</td>
+														<td><?php echo $gh['gia_ban'] * $gh['so_luong_sp'] ?> vnd </td>
 													</tr>
 												<?php
 											}
@@ -76,7 +76,7 @@
 									<tfoot>
 										<tr>
 											<th>Tổng tiền</th>
-											<td><?php echo $_SESSION['tong_tien_gio_hang']; ?> $</td>
+											<td><?php echo $_SESSION['tong_tien_gio_hang']; ?> vnd </td>
 										</tr>
 									</tfoot>
 								</table>

@@ -39,9 +39,7 @@
                                                     <td  class="td-img text-left">
                                                         <a href="/btl/chi_tiet_sp.php?id_sp=<?php echo $gh["id_sp"]; ?>"><img src="/btl/img/<?php echo $gh["anh_minh_hoa"]; ?>"></a>
                                                         <div class="items-dsc">
-                                                            <h5><a href="/btl/chi_tiet_sp.php?id_sp=<?php echo $gh["id_sp"]; ?>"><?php echo $gh['ten_sp'] ?></a></h5>
-                                                            <p class="itemcolor">Color : <span>BLACK</span></p>
-                                                            <p class="itemcolor">Size   : <span>M</span></p>
+                                                            <h5><a href="/btl/chi_tiet_sp.php?id_sp=<?php echo $gh["id_sp"]; ?>"><?php echo $gh['ten_sp'] ?></a></h5>                                                          
                                                         </div>
                                                     </td>
                                                     <td><?php echo $gh['gia_ban'] ?>vnd</td>
