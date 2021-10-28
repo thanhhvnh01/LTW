@@ -93,7 +93,7 @@ if (isset($_POST['phuong_thuc']) && $_POST['phuong_thuc'] == "vnpay")
 			$sdt = $_POST["sdt"];
 			$dia_chi = $_POST["dia_chi"];
 			$trang_thai = 'Đặt hàng';
-			$ket_noi = mysqli_connect("localhost", "root", "", "btl");
+			$ket_noi = mysqli_connect("localhost", "root", "", "btl07_db");
 
 			$sql_hdb = "INSERT INTO `tbl_hdb` (`id_khach_hang`, `phuong_thuc_tt`, `ngay_dat_hang`,`tong_tien`, `ten_kh`, `email`, `sdt`, `dia_chi`, `trang_thai`) 
 				VALUES ('".$id_khach_hang."', '".$phuong_thuc_tt."', '".$ngay_dat_hang."', '".$tong_tien."', '".$ten_kh."', '".$email."', '".$sdt."', '".$dia_chi."', '".$trang_thai."');";

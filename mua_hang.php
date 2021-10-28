@@ -96,11 +96,7 @@
                                         checked>
                                         <label for="tm">Tiền mặt</label>
                                         </div>
-
-                                        <div>
-                                        <input type="radio" name="phuong_thuc" value="vnpay">
-                                        <label for="vnpay">VNPayment</label>
-                                        </div>
+                                       
 
                                         <!-- <div>
                                         <input type="radio" name="phuong_thuc" value="qr">
