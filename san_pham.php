@@ -78,8 +78,7 @@
 												</div>
 											</div>
 											<div class="product-dsc">
-												<p><a href="/btl/chi_tiet_sp.php?id_sp=<?php echo $row["id_sp"]; ?>"><?php echo $row["ten_sp"];?></a></p>
-												<!-- <span><?php echo $row["gia_ban"];?> $ <del></del></span> --> 
+												<p><a href="/btl/chi_tiet_sp.php?id_sp=<?php echo $row["id_sp"]; ?>"><?php echo $row["ten_sp"];?></a></p>											
 												<span><?php echo $row["gia_ban"];?> vnd</span>
 											</div>
 										</div>

@@ -178,6 +178,9 @@
   left: -40px;
 }
 .about-text {padding: 20px 0;}
+.about-text.p{
+  font-size: large;
+}
 tbody .td-img > a {margin-right: 10px;}
 .custom-input.post-state {padding-top: 26px;}
 .pages-title ul.text-left {top: 40px;}

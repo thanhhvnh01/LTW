@@ -62,7 +62,7 @@
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="main-input padding60">
 						<div class="log-title">
-							<h3><strong>Đăng nhập</strong></h3>
+							<h3><strong><b>Đăng nhập</b></strong></h3>
 						</div>
 						<div class="login-text">
 							<div class="custom-input">

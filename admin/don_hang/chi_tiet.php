@@ -100,7 +100,6 @@
 			                            <thead>
 			                                <tr>
 			                                    <th>STT</th>
-			                                    <th>Hình ảnh</th>
 			                                    <th>Tên sản phẩm </th>
 			                                    <th>Giá bán</th>
 			                                    <th>Số lượng</th>
@@ -110,10 +109,13 @@
 			                            <tbody>
 										<?php 
 											// 2. Viết câu lệnh SQL để lấy ra dữ liệu mong muốn
-											$sql = "SELECT * FROM `tbl_chi_tiet_hdb`
-													ORDER BY id_chi_tiet DESC
-											"; 
+											$sql = "SELECT tbl_menu.gia_ban, tbl_chi_tiet_hdb.so_luong, tbl_chi_tiet_hdb.tong_tien, tbl_menu.ten_sp
+												    FROM tbl_chi_tiet_hdb
+													INNER JOIN tbl_menu 
+													ON tbl_chi_tiet_hdb.id_sp = tbl_menu.id_sp
+													WHERE tbl_chi_tiet_hdb.id_hdb = $id_hdb
 
+											"; 
 											// 3. Thực hiện truy vấn để lấy ra các dữ liệu mong muốn
 											$query_chi_tiet = mysqli_query($ket_noi, $sql);
 
@@ -124,19 +126,10 @@
 										?>
 			                                <tr>
 			                                    <td><?php echo $i; ?></td>
-												<td>
-													<img src="/btl/img/<?php 
-														if ($sp["anh"]<>"") {
-															echo $sp["anh"];
-														} else {
-															echo "diep4.png";
-														}
-													;?>" width="100px" height="auto">
-												</td>
-			                                    <td><?php echo $sp['id_sp']; ?></td>
+			                                    <td><?php echo $sp['ten_sp']; ?></td>
 			                                    <td><?php echo $sp['gia_ban']; ?></td>
 			                                    <td><?php echo $sp['so_luong']; ?></td>
-			                                    <td><?php echo $sp['tong_tien']; ?></td>
+			                                    <td><?php echo $sp['gia_ban'] * $sp['so_luong'] ?> vnd</td>
 											</tr>
 										<?php
 											}
@@ -159,7 +152,7 @@
 			                                <tbody>
 			                                    <tr>
 			                                        <th>Tổng:</th>
-			                                        <td><?php echo $hdb["tong_tien"];?> $</td>
+			                                        <td><?php echo $hdb["tong_tien"];?> vnd</td>
 			                                    </tr>
 			                                </tbody>
 			                            </table>

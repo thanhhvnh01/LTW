@@ -1926,7 +1926,8 @@ select:focus{outline:none!important;border-color:transparent;border:0;}
 [ 6.10 single products page ]
 ---------------------------------------*/
 .product-details .margin-top {margin-top: 30px;}
-.product-details .list-text {padding: 50px;}
+.product-details .list-text {padding: 20px; float: right;
+}
 .product-details .list-text > h5 del {font-size: 18px;}
 .product-details .list-text > h5,.product-details .list-text > h3 {
   font-size: 25px;
