@@ -529,6 +529,29 @@ section {
     height: 100%;
 
 }
+
+ #slideshow {
+    overflow: hidden;
+    height: 500px;
+    width: 1100px;
+    margin: 0 auto;
+  }
+ .slide-wrapper {
+    width: 4400px;
+    animation: slide 14s ease infinite;
+  }
+ .slide {
+    float: left;
+    height: 500px;
+    width: 1100px;
+  }
+ @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1100px;}
+    50% {margin-left: -1100px;}
+    60% {margin-left: -2200px;}
+    80% {margin-left: -2200px;}
+  }
 .divanhphai{
     
     /*flex-grow: 1;*/

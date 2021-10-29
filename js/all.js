@@ -141,6 +141,7 @@ function TyperSetup() {
 TyperSetup();
 
 
+
 /*
  *	jQuery OwlCarousel v1.23
  *
@@ -199,8 +200,7 @@ if ( typeof Object.create !== "function" ) {
 			} else {
 				base.logIn();
 			}
-		},
-
+		}, 
 		logIn : function(){
 			var base = this;
 

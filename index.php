@@ -4,6 +4,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="/btl/css/BaiTapLon.css">
 	<link rel="stylesheet" href="/btl/accets/css/style.css">
+	
 	<link rel="icon" href="img/logo.jpg">
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,8 +16,15 @@
 <body>
 	<?php include 'includes/header.php'; ?>
 
-	<img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/246013529_2946181452314307_212220866091537486_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=r2LXXr6i5O4AX9-Getf&_nc_ht=scontent.fhan14-2.fna&oh=77a382858bb43fc3f40564d1a1efe3b9&oe=619BDF7F" alt="Ai cha cha"
-	 class="anh-nen" width="2000" style="text-align: center;">
+ 
+	<div id="slideshow">
+   <div class="slide-wrapper">
+     <div class="slide"><a href="/btl/san_pham.php"><img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/246013529_2946181452314307_212220866091537486_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=r2LXXr6i5O4AX9-Getf&_nc_ht=scontent.fhan14-2.fna&oh=77a382858bb43fc3f40564d1a1efe3b9&oe=619BDF7F"></a></div>
+     <div class="slide"><a href="/btl/chi_tiet_sp.php?id_sp=1"><img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.6435-9/101696359_2569231626675960_841797866140729344_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=dBe4zhTWbl4AX85ZHw5&_nc_ht=scontent.fhan14-1.fna&oh=55b0ee3c17cb158d3c1ff4e5058ce547&oe=61A0EC8F"></a></div>
+     <div class="slide"><img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/68323412_2325607311038394_2944114139112407040_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_ohc=Qq_MALMa7dEAX9l0u3A&_nc_ht=scontent.fhan14-2.fna&oh=65bb3070709fcdaddc08bfe086a2ca79&oe=61A09C5B"></div>
+   </div>
+ </div>
+
 	<!-- tab-products section start -->
 	<div class="trang">
 	<div class="tab-products single-products products-two section-padding">
@@ -155,6 +163,7 @@
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/slider.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
 </body>
