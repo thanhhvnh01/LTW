@@ -31,7 +31,7 @@
           
             
                         <div class="row contact-form">
-                        <div id="lienhe" class="col-sm-12 col-md-6"> 
+                        <div id="lienhe" class="col-sm-12 col-md-6" style="height: auto;"> 
                             <div class="is-vertical-flex form-group">
                             <p class="lienhe2">HỌ VÀ TÊN</p>
                                 <input type="text" class="form-control" name="first_name" id="customerName" autocomplete="off">
@@ -48,8 +48,8 @@
                             <p class="lienhe2">NỘI DUNG</p>
                                 <textarea class="form-control" name="description" id="customerFeedbackContent" rows="6"></textarea>
                             </div>
-                            
-                                <input type="submit" class="btn default-btn btn-send" value="GỬI" id="btn-submit">
+
+                            <input type="submit" class="btn default-btn btn-send" value="GỬI" id="btn-submit">
                         </div>
                         </div>
                     </form>
@@ -61,7 +61,7 @@
             
             <div class="row">
                 <div class="col-sm-10 col-text-center">
-                    <div class="contact-details">
+                    <div class="contact-details" style="top: auto;">
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="single-contact">
