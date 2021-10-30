@@ -57,31 +57,40 @@
             </div>
         </section>
     </div>
-        <div class="container text-center">
-            
+    <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="googleMap-info">
+                        <div id="googleMap"></div>
+                        <div class="map-info">
+                            <p><strong>GODIET</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-10 col-text-center">
-                    <div class="contact-details" style="top: auto;">
+                    <div class="contact-details">
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="single-contact">
                                     <i class="mdi mdi-map-marker"></i>
-                                    <p>Ngõ 62, Nguyễn Chí Thanh, Hà Nội</p>
-                                    
+                                    <p>Ngõ 62, Nguyễn Chí Thanh</p>
+                                    <p>Quận Đống Đa, Hà Nội</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-contact">
                                     <i class="mdi mdi-phone"></i>
-                                    <p>(+84) 356737790</p>
-                                    
+                                    <p>(+84) 09396969696</p>
+                                    <p>(+84) 08838686868</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-contact">
                                     <i class="mdi mdi-email"></i>
-                                    <p>GODIETVN@GMAIL.COM</p>
-                                    
+                                    <p>COMMERCIAL@GODIET.COM.VN</p>
+                                    <p>CUSTOMERCARE@GODIET.COM.VN</p>
                                 </div>
                             </div>
                         </div>
@@ -90,6 +99,35 @@
             </div>
         </div>
     </div>
+    <!-- contact content section end -->
+    
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() 
+        {
+        
+            var mapOptions = {
+            zoom: 17,
+            hue: '#E9E5DC',
+            scrollwheel: false,
+            mapTypeId:google.maps.MapTypeId.TERRAIN,
+            center: new google.maps.LatLng(21.02172706363846, 105.80752059764902)
+            };
+
+            var map = new google.maps.Map(document.getElementById('googleMap'),
+                mapOptions);
+
+
+            var marker = new google.maps.Marker({
+            position: map.getCenter(),
+            icon: 'accets/img/map-marker.png',
+            map: map
+            });
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <!-- contact content section end -->
 
     <?php include 'includes/footer.php'; ?>
