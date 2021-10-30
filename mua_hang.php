@@ -18,7 +18,7 @@
 	<section class="pages checkout section-padding">
 		<div class="container">
 			<div class="row">
-				<form action="./vnpay_create_payment.php" method="post">
+				<form action="./thanhtoan.php" method="post">
 					<div class="col-sm-6">
 						<div class="main-input single-cart-form padding60">
 							<div class="log-title">
