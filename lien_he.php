@@ -24,14 +24,14 @@
                     
                         
                     </div>
-                    <form action="./lien_he_thuc_hien.php" enctype="multipart/form-data" method="POST" accept-charset="UTF-8">
+                    <form action="./lien_he_thuc_hien.php" enctype="multipart/form-data" method="POST" accept-charset="UTF-8" >
                         <input type="hidden" name="__session_id" value="b09774f4-f010-458b-810f-c02063c9bbb1">
                         <input type="hidden" name="_csrf_token" value="ZQMcAD8GDxMaZhAhUBkfAiQ5fScNPws6T5LsxuYvc_tNivMQVu8EysDx">
                         <input type="hidden" name="utf8" value="✓">
           
             
                         <div class="row contact-form">
-                        <div id="lienhe" class="col-sm-12 col-md-6" style="height: auto;"> 
+                        <div id="lienhe" class="col-sm-12 col-md-6" style="height: auto;width:50%"> 
                             <div class="is-vertical-flex form-group">
                             <p class="lienhe2">HỌ VÀ TÊN</p>
                                 <input type="text" class="form-control" name="first_name" id="customerName" autocomplete="off">
@@ -42,14 +42,14 @@
                             </div>
                             <div class="is-vertical-flex form-group">
                             <p class="lienhe2">SỐ ĐIỆN THOẠI</p>
-                                <input type="number" class="form-control" name="phone_number" id="customerPhone" autocomplete="off">
+                                <input type="text" class="form-control" name="phone_number" id="customerPhone" autocomplete="off">
                             </div>
                             <div class="is-vertical-flex form-group">
                             <p class="lienhe2">NỘI DUNG</p>
                                 <textarea class="form-control" name="description" id="customerFeedbackContent" rows="6"></textarea>
                             </div>
 
-                            <input type="submit" class="btn default-btn btn-send" value="GỬI" id="btn-submit">
+                            <div class="is-vertical-flex form-group" style="float:initial;"><input type="submit" class="btn default-btn btn-send" value="GỬI" id="btn-submit"></div>
                         </div>
                         </div>
                     </form>

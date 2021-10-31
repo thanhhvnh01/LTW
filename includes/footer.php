@@ -33,7 +33,7 @@
             <div class="legalson">
         <br>
         
-Ngõ 62, Nguyễn Chí Thanh, Hà Nội  <a href="mailto:customercare@rickowens.eu">  godietvn@gmail.com</a>
+Ngõ 62, Nguyễn Chí Thanh, Hà Nội  <a href="mailto:godietvn@gmail.com">  godietvn@gmail.com</a>
 </div>
 </div>
     

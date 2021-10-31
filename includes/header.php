@@ -129,14 +129,14 @@
 											
 												<br>
 												
-												<div style="padding-top:10px" class="rickowenss"><?php echo $gh['gia_ban'] ?> vnd</div>
+												<div style="padding-top:10px" class="godiet1"><?php echo $gh['gia_ban'] ?> vnd</div>
 											</div>
 										</div>
 									<?php
 								}
 								?>
 									<div class="total">
-									<div class="rickowenss">TỔNG TIỀN                                                      
+									<div class="godiet1">TỔNG TIỀN                                                      
 										<?php  echo $_SESSION['tong_tien_gio_hang']; ?> vnd</div>
 									</div>
 									<a class="goto" href="/btl/gio_hang.php">Giỏ hàng</a>

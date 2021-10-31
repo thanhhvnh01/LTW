@@ -45,9 +45,11 @@ $_SESSION['dia_chi']=$dia_chi;
 				$id_hdb = $ket_noi->insert_id;
 				foreach($_SESSION['gio_hang'] as $gh) {
 					$id_sp = $gh['id_sp'];
-					$so_luong = $gh['so_luong_sp'];										
-					$sql_chi_tiet = "INSERT INTO `tbl_chi_tiet_hdb` (`id_hdb`, `id_sp`, `so_luong`,`tong_tien`) 
-						VALUES ('".$id_hdb."', '".$id_sp."', '".$so_luong."', , '".$tong_tien."');";
+					$so_luong = $gh['so_luong_sp'];
+					$gia_ban=$gh['gia_ban'];								
+					$sql_chi_tiet = "INSERT INTO `tbl_chi_tiet_hdb` (`id_hdb`, `id_sp`, `so_luong`, `gia_ban`,`tong_tien`) 
+						VALUES ('".$id_hdb."', '".$id_sp."', '".$so_luong."', '".$gia_ban."', '".$tong_tien."')";
+					
 					
 					$ket_noi->query($sql_chi_tiet);
 				 }

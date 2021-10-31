@@ -64,7 +64,7 @@
 							<form action="/btl/dang_ky.php" method="post">
 								<input type="text" name="ten_kh" placeholder="Họ và tên" required/>
 								<input type="tel	" name="sdt" placeholder="Số điện thoại" required/>
-								<input type="text" name="email" placeholder="Địa chỉ email" required/>
+								<input type="email" name="email" placeholder="Địa chỉ email" required/>
 								<input type="text" name="username" placeholder="Tên đăng nhập" required/>
 								<input type="password" name="password" placeholder="Mật khẩu" required/>
 								<input type="date" name="ngay_sinh" placeholder="ngay_sinh" required/>
